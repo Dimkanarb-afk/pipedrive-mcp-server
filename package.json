@@ -1,0 +1,35 @@
+{
+  "name": "pipedrive-mcp-ultimate",
+  "version": "1.0.0",
+  "description": "Full-featured Pipedrive MCP server for Claude — deals, leads, persons, organizations, notes, activities and more",
+  "main": "dist/index.js",
+  "bin": {
+    "pipedrive-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node --max-old-space-size=8192 node_modules/.bin/tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "typecheck": "node --max-old-space-size=8192 node_modules/.bin/tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["pipedrive", "mcp", "claude", "ai", "crm"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "bottleneck": "^2.19.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
