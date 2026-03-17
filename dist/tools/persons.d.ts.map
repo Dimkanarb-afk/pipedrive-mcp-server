@@ -1,1 +1,0 @@
-{"version":3,"file":"persons.d.ts","sourceRoot":"","sources":["../../src/tools/persons.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,sCAAsC,CAAC;AAEtE,OAAO,EAAE,eAAe,EAAsC,MAAM,cAAc,CAAC;AA0DnF,wBAAgB,mBAAmB,CAAC,MAAM,EAAE,SAAS,EAAE,MAAM,EAAE,eAAe,GAAG,IAAI,CA2RpF"}
